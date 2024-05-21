@@ -1,0 +1,57 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "url": "/addresses/38400000"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "jsonBody": {
+                    "street": "Rua Clean Architecture",
+                    "city": "Uberlândia",
+                    "state": "Minas Gerais"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/addresses/38400001"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "jsonBody": {
+                    "street": "Rua das Flores",
+                    "city": "São Paulo",
+                    "state": "São Paulo"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "url": "/addresses/38400002"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "jsonBody": {
+                    "street": "Rua nova",
+                    "city": "Belém",
+                    "state": "Pará"
+                }
+            }
+        }
+    ]
+
+}
+

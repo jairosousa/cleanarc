@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "631e1bcf-ee18-4ed9-bcde-b4a0d92bdd41",
+		"name": "Clean Architecture",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1010130"
+	},
+	"item": [
+		{
+			"name": "criar customer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Jairo\",\r\n    \"zipCode\": \"38400000\",\r\n    \"cpf\": \"34220416056\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get customers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Jairo\",\r\n    \"zipCode\": \"38400000\",\r\n    \"cpf\": \"34220416056\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/customers/664ccdc937608917d7970027",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"customers",
+						"664ccdc937608917d7970027"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update customers",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Jairo Nascimento\",\r\n    \"zipCode\": \"38400001\",\r\n    \"cpf\": \"34220416056\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/customers/664c986eafe23812f3089ad7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"customers",
+						"664c986eafe23812f3089ad7"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

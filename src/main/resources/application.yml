@@ -1,0 +1,16 @@
+jnsdev:
+  client:
+    address:
+      url: http://localhost:8082/address
+
+spring:
+  application:
+    name: cleanarc
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      authentication-database: admin
+      username: root
+      password: example
+      database: cleanarc
